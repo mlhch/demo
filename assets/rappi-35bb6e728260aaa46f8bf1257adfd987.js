@@ -9656,7 +9656,7 @@ define("rappi/adapters/application", ["exports", "ember-data", "ember-simple-aut
                 var o = e.createElement("a");
                 e.setAttribute(o, "href", "");
                 var i = e.createElement("img");
-                e.setAttribute(i, "src", "/assets/images/logo-rappi-2@2x-2d7b746a846fb17b59641a9fb48a01e4.png"), e.setAttribute(i, "class", "logo-foot-2x"), e.setAttribute(i, "alt", "logo-rappi"), e.appendChild(o, i), e.appendChild(d, o), e.appendChild(l, d);
+                e.setAttribute(i, "src", "assets/images/logo-rappi-2@2x-2d7b746a846fb17b59641a9fb48a01e4.png"), e.setAttribute(i, "class", "logo-foot-2x"), e.setAttribute(i, "alt", "logo-rappi"), e.appendChild(o, i), e.appendChild(d, o), e.appendChild(l, d);
                 var d = e.createTextNode("\n\n            ");
                 e.appendChild(l, d), e.appendChild(n, l);
                 var l = e.createTextNode("\n\n            ");
@@ -11940,13 +11940,13 @@ define("rappi/adapters/application", ["exports", "ember-data", "ember-simple-aut
         locationIndex: -1,
         authProcess: !1,
         passwordInput: {
-            src: "/assets/images/ojo-cerrado.svg",
+            src: "assets/images/ojo-cerrado.svg",
             type: "password",
             visible: !1
         },
         actions: {
             setPasswordVisible: function() {
-                t.default.set(this.passwordInput, "visible", !this.passwordInput.visible), t.default.set(this.passwordInput, "src", this.passwordInput.visible ? "/assets/images/ojo-abierto.svg" : "/assets/images/ojo-cerrado.svg"), t.default.set(this.passwordInput, "type", this.passwordInput.visible ? "text" : "password")
+                t.default.set(this.passwordInput, "visible", !this.passwordInput.visible), t.default.set(this.passwordInput, "src", this.passwordInput.visible ? "assets/images/ojo-abierto.svg" : "assets/images/ojo-cerrado.svg"), t.default.set(this.passwordInput, "type", this.passwordInput.visible ? "text" : "password")
             },
             selectLocation: function(e) {
                 if ("" !== e) {
@@ -12280,7 +12280,7 @@ define("rappi/adapters/application", ["exports", "ember-data", "ember-simple-aut
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createElement("img");
-                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "/assets/images/mail.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
+                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "assets/images/mail.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createComment("");
@@ -12300,7 +12300,7 @@ define("rappi/adapters/application", ["exports", "ember-data", "ember-simple-aut
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createElement("img");
-                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "/assets/images/candado.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
+                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "assets/images/candado.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createElement("img");
@@ -12454,13 +12454,13 @@ define("rappi/adapters/application", ["exports", "ember-data", "ember-simple-aut
         acceptTerms: !1,
         authProcess: !1,
         passwordInput: {
-            src: "/assets/images/ojo-cerrado.svg",
+            src: "assets/images/ojo-cerrado.svg",
             type: "password",
             visible: !1
         },
         actions: {
             setPasswordVisible: function() {
-                t.default.set(this.passwordInput, "visible", !this.passwordInput.visible), t.default.set(this.passwordInput, "src", this.passwordInput.visible ? "/assets/images/ojo-abierto.svg" : "/assets/images/ojo-cerrado.svg"), t.default.set(this.passwordInput, "type", this.passwordInput.visible ? "text" : "password")
+                t.default.set(this.passwordInput, "visible", !this.passwordInput.visible), t.default.set(this.passwordInput, "src", this.passwordInput.visible ? "assets/images/ojo-abierto.svg" : "assets/images/ojo-cerrado.svg"), t.default.set(this.passwordInput, "type", this.passwordInput.visible ? "text" : "password")
             },
             onKeyPress: function() {
                 this.set("invalidEmail", !1), this.set("invalidPassword", !1), this.set("invalidConfirmPassword", !1), this.set("invalidFirstName", !1), this.set("invalidLastName", !1), this.set("invalidPhone", !1), this.set("registrationFailed", !1)
@@ -12947,7 +12947,7 @@ define("rappi/adapters/application", ["exports", "ember-data", "ember-simple-aut
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createElement("img");
-                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "/assets/images/mail.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
+                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "assets/images/mail.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createComment("");
@@ -12965,7 +12965,7 @@ define("rappi/adapters/application", ["exports", "ember-data", "ember-simple-aut
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createElement("img");
-                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "/assets/images/candado.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
+                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "assets/images/candado.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createElement("img");
@@ -12987,7 +12987,7 @@ define("rappi/adapters/application", ["exports", "ember-data", "ember-simple-aut
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createElement("img");
-                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "/assets/images/user.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
+                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "assets/images/user.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createComment("");
@@ -13005,7 +13005,7 @@ define("rappi/adapters/application", ["exports", "ember-data", "ember-simple-aut
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createElement("img");
-                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "/assets/images/user.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
+                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "assets/images/user.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createComment("");
@@ -13023,7 +13023,7 @@ define("rappi/adapters/application", ["exports", "ember-data", "ember-simple-aut
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createElement("img");
-                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "/assets/images/phone.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
+                e.setAttribute(n, "class", "input-icon"), e.setAttribute(n, "src", "assets/images/phone.svg"), e.setAttribute(n, "alt", ""), e.appendChild(r, n);
                 var n = e.createTextNode("\n      ");
                 e.appendChild(r, n);
                 var n = e.createComment("");
@@ -23004,7 +23004,7 @@ define("rappi/adapters/application", ["exports", "ember-data", "ember-simple-aut
                 var m = e.createElement("div");
                 e.setAttribute(m, "class", "prod-thumb62 whim-thumb62");
                 var h = e.createElement("img");
-                e.setAttribute(h, "src", "/assets/images/Donut-14c013bae7a0c8cc51b25b5dea73de70.png"), e.appendChild(m, h);
+                e.setAttribute(h, "src", "assets/images/Donut-14c013bae7a0c8cc51b25b5dea73de70.png"), e.appendChild(m, h);
                 var h = e.createTextNode("\n                                            ");
                 e.appendChild(m, h), e.appendChild(u, m);
                 var m = e.createTextNode("\n                                            ");
@@ -36699,7 +36699,7 @@ define("rappi/pod/home/my-list/template", ["exports"], function(e) {
                 d = this.get("session").get("isAuthenticated");
             return t.default.isEmpty(e) && t.default.isEmpty(r) && window.scrollTo(0, 0), d && t.default.isPresent(e) && t.default.isPresent(r) ? void this.transitionTo("home.store", a.default.defaultStoreType) : new t.default.RSVP.Promise(function(e, r) {
                 t.default.RSVP.hashSettled({
-                    popularSearch: t.default.$.getJSON('/api/search_get_limit_16.json'/**a.default.popularSearchServerURL + "/" + a.default.getPopularSearchUrl + "limit=16"**/)
+                    popularSearch: t.default.$.getJSON('api/search_get_limit_16.json'/**a.default.popularSearchServerURL + "/" + a.default.getPopularSearchUrl + "limit=16"**/)
                 }).then(function(t) {
                     var a = {};
                     Object.keys(t).forEach(function(e) {
